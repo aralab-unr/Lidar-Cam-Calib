@@ -6,7 +6,7 @@ It takes 2 inputs:
  
  BUILD INSTRUCTIONS:
   a) clone the repository to your local directory. (eg., $HOME/Lidar-Cam-Calib)
-  b) navigate to the directory.yusing terminal.
+  b) navigate to the directory using terminal.
   c) mkdir build
   d) cd build
   e) cmake ..
@@ -14,7 +14,7 @@ It takes 2 inputs:
   
   Make sure to change the paths of the PCL and the OpenCV directory in the CMakeLists.txt.
   
-  RUN INstructions:
+  Run Instructions:
    ./teste6 pointcloud1.pcd image1.jpg
   
   Here, pointcloud1.pcd contains the lidar point cloud. and image1.jpg contains the image file.
