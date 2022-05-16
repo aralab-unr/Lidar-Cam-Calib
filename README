@@ -18,5 +18,5 @@ It takes 2 inputs:
    ./teste6 pointcloud1.pcd image1.jpg
   
   Here, pointcloud1.pcd contains the lidar point cloud. and image1.jpg contains the image file.
-  It should result in a 4x4 transformation matrix between the lidar and the stereo sensor.
+  The final output is a 4x4 transformation matrix between the lidar and the stereo sensor.
   
