@@ -19,7 +19,7 @@ It takes 2 inputs:
   
   Here, pointcloud1.pcd is the point cloud file acquired from the Lidar sensor.
   image1.jpg contains the image file acquired from the camera sensor.
-   the calibration board is the FOV of both the sensors.
+   the calibration board is in the FOV of both the sensors.
   The final output is a 4x4 transformation matrix between the lidar and the camera sensor.
   
 
