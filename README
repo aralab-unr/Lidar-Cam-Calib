@@ -1,1 +1,22 @@
-LIdar-Camera Clibration
+Lidar-Camera Clibration
+This work is based on the single frame Lidar Camera calibration. 
+It takes 2 inputs:
+ a) 1 pcd file containing the lidar point clouds containing the points of the calibration boards.
+ b) 1 image file containg the image of the calibration board.
+ 
+ BUILD INSTRUCTIONS:
+  a) clone the repository to your local directory. (eg., $HOME/Lidar-Cam-Calib)
+  b) navigate to the directory.yusing terminal.
+  c) mkdir build
+  d) cd build
+  e) cmake ..
+  f) make
+  
+  Make sure to change the paths of the PCL and the OpenCV directory in the CMakeLists.txt.
+  
+  RUN INstructions:
+   ./teste6 pointcloud1.pcd image1.jpg
+  
+  Here, pointcloud1.pcd contains the lidar point cloud. and image1.jpg contains the image file.
+  It should result in a 4x4 transformation matrix between the lidar and the stereo sensor.
+  
